@@ -1,0 +1,458 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta class="foundation-mq">
+		
+		<!-- If Site Icon isn't set in customizer -->
+			
+		<link rel="pingback" href="http://sharepointmaven.com/xmlrpc.php" />
+
+		<!--TypeKit-->
+		<script>
+		(function(d) {
+			var config = {
+				kitId: 'rir6och',
+				scriptTimeout: 3000,
+				async: true
+			},
+			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+		</script>
+		<!--end TypeKit-->
+
+		<title>SharePoint Examples</title>
+
+<!-- Social Warfare v2.3.2 https://warfareplugins.com -->
+<style>@font-face {font-family: "sw-icon-font";src:url("http://sharepointmaven.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.3.2");src:url("http://sharepointmaven.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.3.2#iefix") format("embedded-opentype"),url("http://sharepointmaven.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.woff?ver=2.3.2") format("woff"), url("http://sharepointmaven.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.ttf?ver=2.3.2") format("truetype"),url("http://sharepointmaven.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.svg?ver=2.3.2#1445203416") format("svg");font-weight: normal;font-style: normal;}</style>
+<!-- Social Warfare v2.3.2 https://warfareplugins.com -->
+
+
+<!-- This site is optimized with the Yoast SEO plugin v5.3.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="SharePoint Examples using our of the box configuration"/>
+<link rel="canonical" href="http://sharepointmaven.com/sharepoint-examples-portfolio/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="SharePoint Examples" />
+<meta property="og:description" content="SharePoint Examples using our of the box configuration" />
+<meta property="og:url" content="http://sharepointmaven.com/sharepoint-examples-portfolio/" />
+<meta property="og:site_name" content="SharePoint Maven" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/sharepointmaven.com\/","name":"SharePoint Maven","potentialAction":{"@type":"SearchAction","target":"http:\/\/sharepointmaven.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//a.optnmstr.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="SharePoint Maven &raquo; Feed" href="http://sharepointmaven.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SharePoint Maven &raquo; Comments Feed" href="http://sharepointmaven.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/sharepointmaven.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.1"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='social_warfare-css'  href='http://sharepointmaven.com/wp-content/plugins/social-warfare/css/style.min.css?ver=2.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='http://sharepointmaven.com/wp-content/themes/sharepoint-maven/style.min.css?ver=1.6' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='https://use.fontawesome.com/b5c72f2f38.js?ver=4.8.1'></script>
+<script type='text/javascript' data-cfasync="false" id="omapi-script" async="async" src='//a.optnmstr.com/app/js/api.min.js?ver=1.2.2'></script>
+<script type='text/javascript' src='http://sharepointmaven.com/wp-content/themes/sharepoint-maven/js/vendor/modernizr-2.6.2.min.js?ver=4.8.1'></script>
+<link rel='https://api.w.org/' href='http://sharepointmaven.com/wp-json/' />
+<link rel='shortlink' href='http://sharepointmaven.com/?p=1530' />
+<link rel="alternate" type="application/json+oembed" href="http://sharepointmaven.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsharepointmaven.com%2Fsharepoint-examples-portfolio%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://sharepointmaven.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsharepointmaven.com%2Fsharepoint-examples-portfolio%2F&#038;format=xml" />
+<link rel="icon" href="http://sharepointmaven.com/wp-content/uploads/2015/01/Favicon1.png" sizes="32x32" />
+<link rel="icon" href="http://sharepointmaven.com/wp-content/uploads/2015/01/Favicon1.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://sharepointmaven.com/wp-content/uploads/2015/01/Favicon1.png" />
+<meta name="msapplication-TileImage" content="http://sharepointmaven.com/wp-content/uploads/2015/01/Favicon1.png" />
+<!-- BEGIN GADWP v5.1.1.1 Universal Analytics - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-27799221-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END GADWP Universal Analytics -->
+		
+		<!--Crazy Egg-->
+		<script type="text/javascript">
+		setTimeout(function()
+		{var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0062/7863.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}
+		, 1);
+		</script>
+		<!--End Crazy Egg-->
+
+	</head>
+
+	<body class="page-template page-template-pages page-template-portfolio page-template-pagesportfolio-php page page-id-1530">
+
+		<div id="mobile-menu" class="mobile">
+
+			<ul id="menu-mobile-menu" class="menu"><li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4261"><a href="http://sharepointmaven.com/">Home</a></li>
+<li id="menu-item-4265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4265"><a href="http://sharepointmaven.com/sharepoint-migration-services/">Services</a>
+<ul  class="sub-menu">
+	<li id="menu-item-4348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4348"><a href="http://sharepointmaven.com/sharepoint-consulting/">Hourly Consulting</a></li>
+	<li id="menu-item-4338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4338"><a href="http://sharepointmaven.com/sharepoint-configuration/">Configuration</a></li>
+	<li id="menu-item-4351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4351"><a href="http://sharepointmaven.com/additional-sharepoint-services/">More</a></li>
+</ul>
+</li>
+<li id="menu-item-5140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5140"><a href="http://sharepointmaven.com/sharepoint-training/">Training</a></li>
+<li id="menu-item-4266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4266"><a href="http://sharepointmaven.com/why-sharepoint/">Clients</a>
+<ul  class="sub-menu">
+	<li id="menu-item-5084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5084"><a href="http://sharepointmaven.com/sharepoint-education/">Education</a></li>
+	<li id="menu-item-4271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4271"><a href="http://sharepointmaven.com/sharepoint-engineering/">Engineering</a></li>
+	<li id="menu-item-4272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4272"><a href="http://sharepointmaven.com/sharepoint-finance/">Finance</a></li>
+	<li id="menu-item-5083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5083"><a href="http://sharepointmaven.com/sharepoint-government/">Government</a></li>
+	<li id="menu-item-4273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4273"><a href="http://sharepointmaven.com/sharepoint-legal/">Legal Firms</a></li>
+	<li id="menu-item-4274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4274"><a href="http://sharepointmaven.com/sharepoint-managed-service-providers/">IT Providers</a></li>
+	<li id="menu-item-4275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4275"><a href="http://sharepointmaven.com/sharepoint-medical/">Medical</a></li>
+	<li id="menu-item-4276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4276"><a href="http://sharepointmaven.com/sharepoint-nonprofits/">Nonprofits</a></li>
+	<li id="menu-item-4277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4277"><a href="http://sharepointmaven.com/sharepoint-project-management/">Project Management</a></li>
+	<li id="menu-item-4278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4278"><a href="http://sharepointmaven.com/sharepoint-real-estate/">Real Estate</a></li>
+	<li id="menu-item-5082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5082"><a href="http://sharepointmaven.com/sharepoint-retail/">Retail</a></li>
+	<li id="menu-item-5081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5081"><a href="http://sharepointmaven.com/sharepoint-software-development-firms/">Software</a></li>
+</ul>
+</li>
+<li id="menu-item-4264" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-4264"><a href="http://sharepointmaven.com/sharepoint-expert/">About</a>
+<ul  class="sub-menu">
+	<li id="menu-item-4279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4279"><a href="http://sharepointmaven.com/sharepoint-maven-faqs/">FAQ</a></li>
+	<li id="menu-item-4280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4280"><a href="http://sharepointmaven.com/sharepoint-maven-reviews/">Reviews</a></li>
+	<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1530 current_page_item menu-item-4281"><a href="http://sharepointmaven.com/sharepoint-examples-portfolio/">Portfolio</a></li>
+</ul>
+</li>
+<li id="menu-item-4262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4262"><a href="http://sharepointmaven.com/blog-sharepoint-best-practices/">Blog</a></li>
+<li id="menu-item-4263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4263"><a href="http://sharepointmaven.com/sharepoint-help-contact-greg-zelfond/">Contact</a></li>
+</ul>
+		</div>
+
+		<div class="site-wrapper">
+
+		<a class="screen-reader-text" href="#content">Skip to main content</a>
+	
+		<header class="header header-full Fixed">
+
+			<div class="header__inner">
+				
+								<a class="header__logo" href="http://sharepointmaven.com/">SharePoint Maven</a>
+
+				<a class="header__mobile" href="#mobile-menu"><i class="fa fa-bars"></i> <span class="visuallyhidden">Menu</span></a>
+				
+				<div class="header__nav"><ul id="menu-main-menu" class="menu"><li id="menu-item-4068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4068"><a href="http://sharepointmaven.com/">Home</a></li>
+<li id="menu-item-4308" class="services menu-item menu-item-type-post_type menu-item-object-page menu-item-4308"><a href="http://sharepointmaven.com/sharepoint-migration-services/">Services</a></li>
+<li id="menu-item-5141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5141"><a href="http://sharepointmaven.com/sharepoint-training/">Training</a></li>
+<li id="menu-item-4174" class="why menu-item menu-item-type-post_type menu-item-object-page menu-item-4174"><a href="http://sharepointmaven.com/why-sharepoint/">Clients</a></li>
+<li id="menu-item-4241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4241"><a href="http://sharepointmaven.com/sharepoint-expert/">About</a></li>
+<li id="menu-item-4072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4072"><a href="http://sharepointmaven.com/blog-sharepoint-best-practices/">Blog</a></li>
+<li id="menu-item-4199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4199"><a href="http://sharepointmaven.com/sharepoint-help-contact-greg-zelfond/">Contact</a></li>
+</ul></div>				
+
+			</div>
+		
+		</header>
+		
+		<main id="content">
+  
+  <div class="portfolio">
+
+    <div class="portfolio__inner">
+
+      <h1>SharePoint Examples Portfolio</h1>
+
+      <p>Below you can find some examples of my work. All the SharePoint examples you see on this page have been done using out of the box SharePoint configuration, no coding or 3rd party tools.</p>
+<div class="swp-content-locator"></div>      
+      <div class="portfolio__grid">
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>SharePoint PMO</strong> SharePoint PMO allows for quick and easy way to access various project site within the PMO/Organization. The site also allows users to submit new project site requests and access project information and sites via Project Dashboard</p>" href="http://sharepointmaven.com/wp-content/uploads/2016/03/SharePoint-PMO.jpg">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2016/03/SharePoint-PMO-300x300.jpg" alt="" />
+            <h3>SharePoint PMO</h3>
+          </div>
+          </a>
+        </div>
+
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>SharePoint Policies Site</strong> SharePoint Policies Site allows users to quickly find and access company policies. The Library utilizes managed metadata + metadata navigation for user-friendly search</p>" href="http://sharepointmaven.com/wp-content/uploads/2016/03/SharePoint-Policies.jpg">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2016/03/SharePoint-Policies-300x300.jpg" alt="" />
+            <h3>SharePoint Policies Site</h3>
+          </div>
+          </a>
+        </div>
+
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>SharePoint CRM</strong> An example of CRM built in SharePoint using SharePoint lists. SharePoint CRM allows to track Customers, Companies and Deals (Opportunities). All lists are 'connected' to each other via Lookup functionality</p>" href="http://sharepointmaven.com/wp-content/uploads/2016/03/SharePoint-CRM.jpg">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2016/03/SharePoint-CRM-300x300.jpg" alt="" />
+            <h3>SharePoint CRM</h3>
+          </div>
+          </a>
+        </div>
+
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>HR Employee Site</strong> An example of HR Employee sub-site. The site is home to various policies, procedures forms, benefits info that all employees would have access to. The site features Quick Links (square tiles) allowing quick access to materials. Also on the site is an embedded video that is stored in Office 365 Video Portal. The site has been configured using Out of the box functionality.</p>" href="http://sharepointmaven.com/wp-content/uploads/2015/07/HR-Employee-Site.jpg">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2015/07/HR-Employee-Site-300x300.jpg" alt="" />
+            <h3>HR Employee Site</h3>
+          </div>
+          </a>
+        </div>
+
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>Intranet Portal Homepage</strong> An example of a company Intranet Portal Homepage. The site you see on a screenshot has been done using Out of the Box Functionality (doesn't it look great?) In this example, the Intranet homepage features the following modules: Company Announcements, Company Calendar, Image Library and Contact List (to store Company Org Chart). The horizontal navigation menu on top allows for easy access to other sites (i.e. department sites, project sites, etc.). P.S. Image in the background is a skyline of Boston, MA, USA</p>" href="http://sharepointmaven.com/wp-content/uploads/2015/06/intranet_homepage.jpg">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2015/06/intranet_homepage-300x300.jpg" alt="" />
+            <h3>Intranet Portal Homepage</h3>
+          </div>
+          </a>
+        </div>
+
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>Project/Team Site</strong> An example of a project / team site using SharePoint Out out of the box functionality. No single line of code used. Just configuration of a site/page as well as web parts available in SharePoint. The following web parts are featured on this project site: Document Library, Calendar, Contact List, Task Module (with ability to sync with MS Project)</p>" href="http://sharepointmaven.com/wp-content/uploads/2015/06/projectsitenew.png">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2015/06/projectsitenew-300x300.png" alt="" />
+            <h3>Project/Team Site</h3>
+          </div>
+          </a>
+        </div>
+
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>Project Document Library</strong> An example of how project documents can be organized using metadata. In this example, documents are tagged against 3 properties: Year, Customer, Project.</p>" href="http://sharepointmaven.com/wp-content/uploads/2015/05/metadata.jpg">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2015/05/metadata-300x300.jpg" alt="" />
+            <h3>Project Document Library</h3>
+          </div>
+          </a>
+        </div>
+
+              
+        <div class="portfolio__image">
+          <a class="fancybox" data-caption="<p><strong>Project Tasks</strong> An example of SharePoint Task Module. It allows users to create MS Project-like schedules, without the 'overhead' of a desktop version of MS Project. The timeline feature is also handy, allowing easy review of critical milestones. Ability to sync with MS Project is also available (out of the box)</p>" href="http://sharepointmaven.com/wp-content/uploads/2015/05/task.jpg">
+          <div class="portfolio__image-inner">
+            <img src="http://sharepointmaven.com/wp-content/uploads/2015/05/task-300x300.jpg" alt="" />
+            <h3>Project Tasks</h3>
+          </div>
+          </a>
+        </div>
+
+            </div>
+
+    </div>
+
+    <div class="portfolio__cta slope slope--gray">
+      
+      <div class="portfolio__cta-inner slope-content last">
+        
+        <h2>Need help with SharePoint?</h2>
+
+        <p style="text-align: center;">As a SharePoint Consultant with over 10 years experience, I provide custom, inexpensive, code-free, out-of-the-box SharePoint solutions for your business needs.</p>
+            
+                        <div class="homepage__services-grid">
+              
+                          
+            <div class="homepage__service">
+                  
+              <a href="http://sharepointmaven.com/sharepoint-consulting/">
+              <div class="homepage__service-inner">
+
+                <div class="homepage__service-icon">
+                  <img style="height: 100px;" src="http://sharepointmaven.com/wp-content/uploads/2016/12/icon-hourly.svg" alt="Hourly Consulting Icon" />
+                </div>
+                  
+                <h3>Hourly Consulting</h3>
+
+                </div>
+                </a>
+
+              </div>
+               
+                            
+            <div class="homepage__service">
+                  
+              <a href="http://sharepointmaven.com/sharepoint-training/">
+              <div class="homepage__service-inner">
+
+                <div class="homepage__service-icon">
+                  <img style="height: 100px;" src="http://sharepointmaven.com/wp-content/uploads/2016/12/icon-training.svg" alt="Training Icon" />
+                </div>
+                  
+                <h3>Training</h3>
+
+                </div>
+                </a>
+
+              </div>
+               
+                            
+            <div class="homepage__service">
+                  
+              <a href="http://sharepointmaven.com/sharepoint-configuration/">
+              <div class="homepage__service-inner">
+
+                <div class="homepage__service-icon">
+                  <img style="height: 120px;" src="http://sharepointmaven.com/wp-content/uploads/2016/12/icon-config.svg" alt="Configuration Icon" />
+                </div>
+                  
+                <h3>Configuration</h3>
+
+                </div>
+                </a>
+
+              </div>
+               
+            
+        </div>
+                <a class="button" href="http://sharepointmaven.com/sharepoint-migration-services/">View All Services</a>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  
+  
+    </main>
+    <!--</END MAIN>-->
+    <footer class="footer">
+      
+      <div class="footer__inner">
+
+        <div class="footer__bio">
+          
+          <h4>Meet Greg</h4>
+          
+                    <img src="http://sharepointmaven.com/wp-content/uploads/2016/12/Gregory-Zelfond_s-300x300.jpg" alt="" />
+
+          <p style="text-align: left;">I’m Gregory Zelfond, the SharePoint Maven.</p>
+<p style="text-align: left;">Most of my clients have big ambitions. Maybe they want to make it easier for their employees to collaborate and share documents. Perhaps they are looking to streamline their document management process. Or maybe they are struggling with keeping track of their projects.</p>
+<p style="text-align: left;">As a SharePoint Consultant for more than 10 years, I have helped countless businesses and nonprofits to use SharePoint to facilitate team collaboration, simplify project management, and streamline document management. From creating simple but intuitive intranet portals to developing project management team sites and document management systems, I develop SharePoint solutions that help you get things done quickly and accurately.</p>
+
+          
+            <ul>
+
+              
+              <li><a class="" href="http://sharepointmaven.com/sharepoint-expert/">Learn more about me <i class="fa fa-angle-right"></i></a></li>
+
+              
+              <li><a class="alt-link" href="http://sharepointmaven.com/sharepoint-migration-services/">View all my services <i class="fa fa-angle-right"></i></a></li>
+
+              
+            </ul>
+
+          
+        </div>
+
+        <div class="footer__form">
+          
+          <h4>Quick Connect</h4>
+
+          
+                <div class='gf_browser_chrome gform_wrapper' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/sharepoint-examples-portfolio/'>
+                        <div class='gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id='field_1_1' class='gfield left-half gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_1' >Your Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='medium'  tabindex='30'  placeholder='NAME' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_7' class='gfield right-half gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_7' >Company Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_7' id='input_1_7' type='text' value='' class='medium'  tabindex='31'  placeholder='ORGANIZATION' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_3' class='gfield left-half gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_3' >Email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_1_3' type='text' value='' class='medium' tabindex='32'   placeholder='EMAIL' aria-required="true" aria-invalid="false"/>
+                        </div></li><li id='field_1_4' class='gfield right-half gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_4' >Phone<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_4' id='input_1_4' type='text' value='' class='medium'  tabindex='33'  placeholder='PHONE NUMBER' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_5' class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_5' >Message<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_5' id='input_1_5' class='textarea medium' tabindex='34'  placeholder='MESSAGE' aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div></li><li id='field_1_8' class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_' ><label class='gfield_label' for='input_1_8' >Name</label><div class='ginput_container'><input name='input_8' id='input_1_8' type='text' value='' /></div><div class='gfield_description'>This field is for validation purposes and should be left unchanged.</div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Send Message' tabindex='35' onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=30' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImRhZTk3MTk2YmQzOTcxMmRjMGQwZDZiYmM0NjdkYzdjIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1'>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 1, 'http://sharepointmaven.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_1').load( function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'http://sharepointmaven.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );</script><script type='text/javascript'> if(typeof gf_global == 'undefined') var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"http:\/\/sharepointmaven.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"http:\/\/sharepointmaven.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>
+        </div>
+
+      </div>
+
+      <div class="footer__bar">
+        
+        <div class="footer__bar-inner">
+
+          <div class="footer__social">
+            
+            
+              <ul>
+
+                
+                <li><a rel="noopener" href="http://twitter.com/gregoryzelfond" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+                
+                <li><a rel="noopener" href="http://www.slideshare.net/gzelfond" target="_blank"><i class="fa fa-slideshare"></i></a></li>
+
+                
+                <li><a rel="noopener" href="https://www.linkedin.com/company/sharepoint-maven" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                
+                <li><a rel="noopener" href="https://www.youtube.com/c/sharepointmaven" target="_blank"><i class="fa fa-youtube"></i></a></li>
+
+                
+              </ul>
+
+            
+          </div>
+          
+          <div class="footer__copyright">
+            
+            <p>© Copyright 2017 SharePoint Maven.   All Rights Reserved.   <a href="http://sharepointmaven.com/terms-conditions/">Terms of Service</a>   <a href="http://sharepointmaven.com/privacy-policy/">Privacy Policy</a></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    </div>
+  
+    <!-- This site is converting visitors into subscribers and customers with OptinMonster - http://optinmonster.com --><div id="om-orfzp9dsbycog5dv-holder"></div><script>var orfzp9dsbycog5dv,orfzp9dsbycog5dv_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){orfzp9dsbycog5dv_poll(function(){if(window['om_loaded']){if(!orfzp9dsbycog5dv){orfzp9dsbycog5dv=new OptinMonsterApp();return orfzp9dsbycog5dv.init({"u":"11808.512835","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;orfzp9dsbycog5dv=new OptinMonsterApp();orfzp9dsbycog5dv.init({"u":"11808.512835","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->		<script type="text/javascript">var orfzp9dsbycog5dv_shortcode = true;</script>
+		<script type='text/javascript' src='http://sharepointmaven.com/wp-content/plugins/social-warfare/js/script.min.js?ver=2.3.2'></script>
+<script type='text/javascript' src='http://sharepointmaven.com/wp-content/themes/sharepoint-maven/js/theme.min.js?ver=1.1.7'></script>
+<script type='text/javascript' src='http://sharepointmaven.com/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='http://sharepointmaven.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.2.5'></script>
+<script type='text/javascript' src='http://sharepointmaven.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.2.5'></script>
+<script type='text/javascript' src='http://sharepointmaven.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.2.5'></script>
+<script type="text/javascript">var swpClickTracking = false; var swp_nonce = "874bf118cd";</script>		<script type="text/javascript">var omapi_localized = { ajax: 'http://sharepointmaven.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1', nonce: '9a2412a55e', slugs: {"orfzp9dsbycog5dv":{"slug":"orfzp9dsbycog5dv","mailpoet":false}} };</script>
+		
+        
+  </body>
+
+</html>
