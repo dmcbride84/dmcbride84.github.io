@@ -40,7 +40,7 @@ body {
 .modal-content {
   position: relative;
   background-color: #fefefe;
-  top: 3px;
+  top: 150px;
   margin: auto;
   padding: 0;
   width: 90%;
