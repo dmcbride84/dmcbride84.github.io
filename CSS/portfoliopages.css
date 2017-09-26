@@ -29,7 +29,7 @@ body {
   z-index: 1;
   padding-top: 100px;
   left: 0;
-  top: 5px;
+  top: 0px;
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -40,9 +40,10 @@ body {
 .modal-content {
   position: relative;
   background-color: #fefefe;
+  top: 3px;
   margin: auto;
   padding: 0;
-  width: 20%;
+  width: 90%;
   max-width: 1200px;
 }
 
