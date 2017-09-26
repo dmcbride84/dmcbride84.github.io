@@ -42,7 +42,7 @@ body {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 90%;
+  width: 10%;
   max-width: 1200px;
 }
 
@@ -65,7 +65,7 @@ body {
 
 .mySlides {
   display: none;
-  width: 20%;
+ 
  
 }
 
