@@ -39,12 +39,11 @@ body {
 /* Modal Content */
 .modal-content {
   position: relative;
-  overflow-x: scroll;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 90%;
-  max-width: 1200px;
+  width: 1200px;
+  max-width: 100%;
 }
 
 /* The Close Button */
