@@ -39,6 +39,7 @@ body {
 /* Modal Content */
 .modal-content {
   position: relative;
+  overflow-x: scroll;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
