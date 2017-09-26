@@ -72,14 +72,13 @@ body {
 
 .imgSlides {
 
-  margin-left: auto;
-  margin-right: auto;
+ 
   width: 50%;
    
 }
 
 .cursor {
-  cursor: pointer
+  cursor: pointer;
 }
 
 /* Next & previous buttons */
