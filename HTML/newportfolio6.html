@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body onload="openModal();currentSlide(1)">
+Loading slideshow...
+<link rel='stylesheet' id='social_warfare-css'  href='https://dmcbride84.github.io/CSS/portfoliopages.css' type='text/css' media='all' />
+<!-- <h2 style="text-align:center">Travel Log</h2> -->
+
+<div class="row">
+	
+  <div class="column">
+    <!-- <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"> -->
+ </div> 
+ <!--
+  <div class="column">
+    <img src="C:\Users\dmcbride\OneDrive - Oil Field Solutions\Work\IT\Sharepoint\Portfolio\Images\Absence Request\absenseRequest2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="C:\Users\dmcbride\OneDrive - Oil Field Solutions\Work\IT\Sharepoint\Portfolio\Images\Absence Request\absenseRequest3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="C:\Users\dmcbride\OneDrive - Oil Field Solutions\Work\IT\Sharepoint\Portfolio\Images\Absence Request\absenseRequest4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  -->
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+      <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log0.jpg" style="width:100%">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log3.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log4.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log5.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log6.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="https://dmcbride84.github.io/Images/Travel Log/Travel_Logend.jpg" style="width:100%">
+    </div>
+	
+    
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+     <div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log0.jpg" style="width:100%" onclick="currentSlide(1)" alt="System Features">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Travel Log - System used to manage flights purchased by the company ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Travel log form includes filterd airport selction">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Travel log - Prioritised flights requiring approval highlighted in yellow ">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log4.jpg" style="width:100%" onclick="currentSlide(5)" alt="Email 1 - Approval required email sent in order to purchase flight">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log5.jpg" style="width:100%" onclick="currentSlide(6)" alt="Email 2 - Approval confirmation received">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Log6.jpg" style="width:100%" onclick="currentSlide(7)" alt="Flight Approval form - This simple form allows management to quickly approve flights. A link to this form is include in the approval request email sent to management">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://dmcbride84.github.io/Images/Travel Log/Travel_Logend.jpg" style="width:100%" onclick="currentSlide(8)" alt="End of slide show">
+    </div>
+	
+	
+	
+	
+    
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+	
+   window.location.href = 'https://dmcbride84.github.io/HTML/portfolio.html';
+  //document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
